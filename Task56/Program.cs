@@ -53,6 +53,10 @@ void FindSum(int[,] array)
     System.Console.WriteLine($"Строка с минимальным значением {min} - {minStr + 1}");
     return;
 }
-int[,] arr = CreateArray(3, 3);
+
+int[,] arr = CreateArray(4, 4);
+Console.WriteLine("Создан массив:");
 PrintArray(arr);
+Console.WriteLine();
+Console.WriteLine("Суммы элементов каждой строки: ");
 FindSum(arr);
